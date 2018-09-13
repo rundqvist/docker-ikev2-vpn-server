@@ -5,7 +5,7 @@ LABEL maintainer="mattias.rundqvist@icloud.com"
 ENV HOST HOSTNAME
 
 RUN apk add --update --no-cache \
-    openssl strongswan bash coreutils
+    openssl strongswan bash coreutils util-linux
 
 COPY /root /
 
